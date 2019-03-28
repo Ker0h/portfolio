@@ -6,23 +6,20 @@
       </b-col>
     </b-row>
 
-    <b-row>
+    <b-row id="#about">
       <b-col>
-        <h3>
-          <code>About Me</code>
-        </h3>
-        <p>Welcome to my online portfolio. 
-          My name is Yannick Willems and I'm an Information Technology student at Avans University in Breda. 
+        <h4>About Me</h4>
+        <!-- TODO: Put paragraphs in seperate columns -->
+        <p>Welcome to my online portfolio.
+          My name is Yannick Willems and I'm an Information Technology student at Avans University in Breda.
           My interests currently lie in developing web-based applications, but I always enjoy learning new things.<br />
           You can find more information about the projects I've been working on recently, on this page and on my GitHub linked below.</p>
       </b-col>
     </b-row>
 
-    <b-row>
-      <b-col cols="6" offset="6" sm="12" offset-sm="0">
-        <h3>
-          <code>Projects</code>
-        </h3>
+    <b-row id="projects">
+      <b-col cols="1" offset="8" offset-sm="9" offset-md="10">
+        <h4>Projects</h4>
       </b-col>
 
       <b-col cols="12">
@@ -30,11 +27,9 @@
       </b-col>
     </b-row>
 
-    <b-row>
+    <b-row id="contact">
       <b-col>
-        <h3>
-          <code>Contact</code>
-        </h3>
+        <h4>Contact</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestiae reprehenderit ex incidunt ab quibusdam. Doloribus cupiditate corrupti consequuntur enim maiores ex doloremque ad? Dolorem ipsa odit quod harum consequuntur?</p>
       </b-col>
     </b-row>
@@ -44,12 +39,15 @@
 
 <script>
 export default {
-  name: "About"
-};
+  name: 'Home'
+}
 </script>
 
 <style>
-code {
-  color: black;
+h4 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+ p {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ }
 </style>

@@ -27,6 +27,13 @@ export default {
 </script>
 
 <style>
+  .home {
+    padding-top: 50px;
+  }
+</style>
+
+
+<style>
   .dark-bg {
     background-color: #f8f9fa !important;
     padding: 30px;

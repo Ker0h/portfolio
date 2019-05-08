@@ -4,8 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>portfolio</title>
+    <title>Yannick Willems</title>
+
+     <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+  crossorigin="anonymous">
+
+      <!-- GitHub-Box CSS -->
+  <link rel="stylesheet" href="github-box.min.css">
+
   </head>
   <body>
     <noscript>
@@ -14,4 +21,10 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
+
+  <script src="github-box.min.js"></script>
+
+  <script>
+    GHRepos.create('.projects a')
+  </script>
 </html>

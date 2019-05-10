@@ -35,6 +35,10 @@ export default {
     padding: 30px;
   }
 
+  .light-purple-bg {
+    background-color: #A68DCC !important;
+  }
+
   .grey-bg {
     background-color: #f8f9fa !important;
     padding: 30px;

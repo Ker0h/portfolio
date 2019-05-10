@@ -1,9 +1,9 @@
 <template>
   <div class="home">
 
-    <About class="light-bg" />
+    <About class="dark-bg" />
     <Education class="light-bg"/>
-    <Projects class="dark-bg" />
+    <Projects class="light-bg" />
     <Contact class="dark-bg" />
 
   </div>

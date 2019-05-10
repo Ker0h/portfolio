@@ -6,14 +6,10 @@
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
-            <b-nav-item href="#about">About</b-nav-item>
-            <b-nav-item href="#education">Education</b-nav-item>
-            <b-nav-item href="#projects">Projects</b-nav-item>
-            <b-nav-item href="#contact">Contact</b-nav-item>
             <b-nav-item
               href="https://www.linkedin.com/in/yannick-willems-49852b150/"
-              target="_blank">LinkedIn</b-nav-item>
-            <b-nav-item href="https://github.com/Ker0h" target="_blank">GitHub</b-nav-item>
+              target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</b-nav-item>
+            <b-nav-item href="https://github.com/Ker0h" target="_blank"><i class="fab fa-github"></i> GitHub</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
 

@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col cols="12">
-          <h4 id="contact">Contact</h4>
+          <h5 id="contact">Contact</h5>
         </b-col>
       </b-row>
       <b-row>

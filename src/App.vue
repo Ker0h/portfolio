@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <b-navbar toggleable="lg" type="dark" variant="dark" fixed="top">
+      <b-navbar toggleable="lg" style="background-color: #563d7c;" type="dark" fixed="top">
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
@@ -17,7 +17,7 @@
           </b-navbar-nav>
         </b-collapse>
 
-        <b-navbar-brand href="#">Yannick Willems</b-navbar-brand>
+        <b-navbar-brand href="#"><code>Yannick Willems</code></b-navbar-brand>
       </b-navbar>
     </div>
 
@@ -30,6 +30,11 @@
 h4 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
+h5 {
+	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
  p {
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
  }

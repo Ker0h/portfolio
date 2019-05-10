@@ -6,8 +6,7 @@
 			<b-row>
 			
 				<b-col cols="8">
-					<h4 id="about">About Me</h4>
-					<!-- TODO: Put paragraphs in seperate columns -->
+					<h5 id="about">About Me</h5>
 					<p>Welcome to my online portfolio.
 						My name is Yannick Willems and I'm an Information Technology student at Avans University in Breda.<br />
 						My interests currently lie in developing web-based applications, but I always enjoy learning new

@@ -1,24 +1,22 @@
 <template>
   <div class="home">
-
-    <About class="grey-bg" />
+    <About class="grey-bg"/>
     <Education class="light-bg"/>
-    <Projects class="light-bg" />
-    <Contact class="grey-bg" />
-    <Footer class="purple-bg text-white" />
-
+    <Projects class="light-bg"/>
+    <Contact class="grey-bg"/>
+    <Footer class="purple-bg text-white"/>
   </div>
 </template>
 
 <script>
-import About from './About'
-import Education from './Education'
-import Projects from './Projects'
-import Contact from './Contact'
-import Footer from './Footer'
+import About from "./About";
+import Education from "./Education";
+import Projects from "./Projects";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
     About,
     Education,
@@ -26,27 +24,26 @@ export default {
     Contact,
     Footer
   }
-}
+};
 </script>
 
 <style>
-  .purple-bg {
-    background-color: #563d7c !important;
-    padding: 30px;
-  }
+.purple-bg {
+  background-color: #563d7c !important;
+  padding: 30px;
+}
 
-  .light-purple-bg {
-    background-color: #886FAE !important;
-  }
+.light-purple-bg {
+  background-color: #886fae !important;
+}
 
-  .grey-bg {
-    background-color: #f8f9fa !important;
-    padding: 30px;
-  }
+.grey-bg {
+  background-color: #f8f9fa !important;
+  padding: 30px;
+}
 
-  .light-bg {
-    background-color: #ffffff !important;
-    padding: 30px;
-  }
-
+.light-bg {
+  background-color: #ffffff !important;
+  padding: 30px;
+}
 </style>

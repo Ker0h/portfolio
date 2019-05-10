@@ -2,13 +2,13 @@
   <div class="projects">
     <b-container>
       <b-row>
-        <b-col cols="6">
+        <b-col cols="12" md="6">
           <h5 id="projects">Projects</h5>
         </b-col>
 
-        <b-col cols="6">
+        <b-col cols="12" md="6">
           <a class="btn btn-large text-white" href="https://github.com/Ker0h" target="_blank">
-            <i class="fab fa-github"></i> More on my Github
+            <i class="fab fa-github"></i> More on Github
           </a>
         </b-col>
       </b-row>

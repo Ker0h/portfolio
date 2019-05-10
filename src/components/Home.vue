@@ -1,10 +1,11 @@
 <template>
   <div class="home">
 
-    <About class="dark-bg" />
+    <About class="grey-bg" />
     <Education class="light-bg"/>
     <Projects class="light-bg" />
-    <Contact class="dark-bg" />
+    <Contact class="grey-bg" />
+    <Footer class="purple-bg text-white" />
 
   </div>
 </template>
@@ -14,6 +15,7 @@ import About from './About'
 import Education from './Education'
 import Projects from './Projects'
 import Contact from './Contact'
+import Footer from './Footer'
 
 export default {
   name: 'Home',
@@ -21,26 +23,25 @@ export default {
     About,
     Education,
     Projects,
-    Contact
+    Contact,
+    Footer
   }
 }
 </script>
 
 <style>
-  .home {
-    padding-top: 50px;
+  .purple-bg {
+    background-color: #563d7c !important;
+    padding: 30px;
   }
-</style>
 
-
-<style>
-  .dark-bg {
+  .grey-bg {
     background-color: #f8f9fa !important;
     padding: 30px;
   }
 
   .light-bg {
-    background-color: #ffffff;
+    background-color: #ffffff !important;
     padding: 30px;
   }
 

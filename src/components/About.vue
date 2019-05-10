@@ -1,5 +1,5 @@
 <template>
-	<div  id="about" class="about">
+	<div class="about">
 
 		<b-container>
 

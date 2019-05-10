@@ -10,26 +10,18 @@
 
       <b-row>
         <b-col sm="12" md="6">
-          <ul>
-            <li>
-              <i class="fas fa-phone-square"></i> +316 2672 6232
-            </li>
-            <li>
+          <p>
+              <i class="fas fa-phone-square"></i> +316 2672 6232<br />
               <i class="fas fa-envelope-square"></i> ywillems96@gmail.com
-            </li>
-          </ul>
+          </p>
         </b-col>
 
         <b-col sm="12" md="6">
-          <ul>
-            <li>
+          <p>
               <a href="https://www.linkedin.com/in/yannick-willems-49852b150/"
-              target="_blank" class="text-dark"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            </li>
-            <li>
+              target="_blank" class="text-dark"><i class="fab fa-linkedin"></i> LinkedIn</a><br />
               <a href="https://github.com/Ker0h" target="_blank" class="text-dark"><i class="fab fa-github"></i> GitHub</a>
-            </li>
-          </ul>
+          </p>
         </b-col>
       </b-row>
     </b-container>
@@ -42,13 +34,13 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 a:hover {
-  color: #563d7c !important;
-  text-decoration: none !important;
+  color: #563d7c;
+  text-decoration: none;
 }
 
-  ul {
+ul {
     list-style: none;
   }
 </style>

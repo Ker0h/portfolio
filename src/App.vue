@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <b-navbar toggleable="lg" style="background-color: #563d7c;" type="dark" fixed="top">
+      <b-navbar toggleable="lg" style="background-color: #563d7c;" type="dark">
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>

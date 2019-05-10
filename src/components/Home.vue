@@ -36,7 +36,7 @@ export default {
   }
 
   .light-purple-bg {
-    background-color: #A68DCC !important;
+    background-color: #886FAE !important;
   }
 
   .grey-bg {

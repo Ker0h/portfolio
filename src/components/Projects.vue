@@ -7,30 +7,30 @@
         </b-col>
 
         <b-col cols="6">
-          <a class="btn btn-large float-right text-white" href="https://github.com/Ker0h" target="_blank">
+          <a class="btn btn-large text-white" href="https://github.com/Ker0h" target="_blank">
             <i class="fab fa-github"></i> More on my Github
           </a>
         </b-col>
       </b-row>
 
       <b-row>
-        <b-col sm="12" md="6">
+        <b-col cols="12" md="6">
           <a href="//github.com/Ker0h/portfolio">Portfolio</a>
         </b-col>
 
-        <b-col sm="12" md="6">
+        <b-col cols="12" md="6">
           <a href="//github.com/Ker0h/Booqs">Booqs</a>
         </b-col>
 
-        <b-col sm="12" md="6">
+        <b-col cols="12" md="6">
           <a href="//github.com/Ker0h/mars-xplorer">Mars Xplorer</a>
         </b-col>
 
-        <b-col sm="12" md="6">
+        <b-col cols="12" md="6">
           <a href="//github.com/Ker0h/stix-chill">Stix & Chill</a>
         </b-col>
 
-        <b-col sm="12" md="6">
+        <b-col cols="12" md="6">
           <a href="//github.com/Ker0h/fabmanager">Fabmanager</a>
         </b-col>
       </b-row>

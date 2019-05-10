@@ -8,10 +8,10 @@
 
         <b-card no-body class="overflow-hidden card" style="max-width: 540px;">
           <b-row no-gutters>
-            <b-col sm="3">
+            <b-col cols="12" md="3">
               <b-img src="../assets/avans.png" class="card-img rounded-0"></b-img>
             </b-col>
-            <b-col sm="9">
+            <b-col cols="12" md="9">
               <b-card-body title="Information Technology">
                 <b-card-text>
                   Avans University, Breda<br />
@@ -24,10 +24,10 @@
 
         <b-card no-body class="overflow-hidden card" style="max-width: 540px;">
           <b-row no-gutters>
-            <b-col sm="3">
+            <b-col cols="12" md="3">
               <b-img src="../assets/scalda.png" class="card-img rounded-0"></b-img>
             </b-col>
-            <b-col sm="9">
+            <b-col cols="12" md="9">
               <b-card-body title="Application Development">
                 <b-card-text>
                   Scalda, Vlissingen<br />

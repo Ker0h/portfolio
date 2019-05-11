@@ -9,7 +9,7 @@
 
       <b-row>
         <b-col cols="12">
-          <p><code>404 Not Found! (yet)</code></p>
+          <b-img src="../assets/incomplete.png" class="rounded-0" fluid />
         </b-col>
       </b-row>
     </b-container>

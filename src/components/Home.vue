@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <Banner />
     <About class="grey-bg"/>
     <Education class="light-bg"/>
     <Experience class="light-bg" />
@@ -10,6 +11,7 @@
 </template>
 
 <script>
+import Banner from './Banner';
 import About from "./About";
 import Education from "./Education";
 import Experience from "./Experience";
@@ -20,6 +22,7 @@ import Footer from "./Footer";
 export default {
   name: "Home",
   components: {
+    Banner,
     About,
     Education,
     Experience,

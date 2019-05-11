@@ -35,12 +35,12 @@ export default {
 
 <style>
 .purple-bg {
-  background-color: #563d7c !important;
+  background-color: rgb(27, 25, 52) !important;
   padding: 30px;
 }
 
 .light-purple-bg {
-  background-color: #886fae !important;
+  background-color: #563d7c !important;
 }
 
 .grey-bg {

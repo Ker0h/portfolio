@@ -1,26 +1,44 @@
 <template>
-	<div class="footer">
-
-		<b-container>
-
-			<b-row>
-			
+  <div class="footer">
+    <b-container>
+      <b-row>
         <b-col cols="12">
-            <i><p align="center">Credits for the Github Boxes go to <br />
-            <i class="fab fa-github"></i><a href="https://github.com/marc0tjevp/Github-Box-Bootstrap4" target="_blank" class="text-white"> marc0tjevp</a></p></i>
+          <h5>Credit where credit is due:</h5>
         </b-col>
+      </b-row>
 
-			</b-row>
-
-		</b-container>
-
-	</div>
+      <b-row>
+        <b-col cols="12">
+          <i>
+            <p align="center">
+              Github Boxes<br />
+              <a
+                href="https://github.com/marc0tjevp/Github-Box-Bootstrap4"
+                target="_blank"
+                class="text-white"
+              ><i class="fab fa-github"></i> marc0tjevp</a>
+            </p>
+          </i>
+          <i>
+            <p align="center">
+              GIF Banner<br />
+              <a
+                href="https://www.behance.net/gallery/36569841/Coffee-in-rain-gif-animation"
+                target="_blank"
+                class="text-white"
+              ><i class="fa fa-image"></i>  Kirokaze Pixel</a>
+            </p>
+          </i>
+        </b-col>
+      </b-row>
+    </b-container>
+  </div>
 </template>
 
 <script>
 export default {
-	name: 'Footer'
-}
+  name: "Footer"
+};
 </script>
 
 <style scoped>

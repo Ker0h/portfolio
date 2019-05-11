@@ -2,6 +2,7 @@
   <div class="home">
     <About class="grey-bg"/>
     <Education class="light-bg"/>
+    <Experience class="light-bg" />
     <Projects class="light-bg"/>
     <Contact class="grey-bg"/>
     <Footer class="purple-bg text-white"/>
@@ -11,6 +12,7 @@
 <script>
 import About from "./About";
 import Education from "./Education";
+import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -20,6 +22,7 @@ export default {
   components: {
     About,
     Education,
+    Experience,
     Projects,
     Contact,
     Footer

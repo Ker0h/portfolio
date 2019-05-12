@@ -14,8 +14,8 @@
             <b-col cols="12" md="9">
               <b-card-body title="Information Technology">
                 <b-card-text>
-                  Avans University, Breda<br />
-                  2017 - Now
+                  Avans University, Breda
+                  <br>2017 - Now
                 </b-card-text>
               </b-card-body>
             </b-col>
@@ -30,8 +30,8 @@
             <b-col cols="12" md="9">
               <b-card-body title="Application Development Internship">
                 <b-card-text>
-                  Fablab Zeeland, Middelburg<br />
-                  February - July 2016
+                  Fablab Zeeland, Middelburg
+                  <br>February - July 2016
                 </b-card-text>
               </b-card-body>
             </b-col>
@@ -46,8 +46,8 @@
             <b-col cols="12" md="9">
               <b-card-body title="Application Development Internship">
                 <b-card-text>
-                  Zuid-West Automatisering B.V., Middelburg<br />
-                  February - July 2015
+                  Zuid-West Automatisering B.V., Middelburg
+                  <br>February - July 2015
                 </b-card-text>
               </b-card-body>
             </b-col>
@@ -62,14 +62,13 @@
             <b-col cols="12" md="9">
               <b-card-body title="Application Development">
                 <b-card-text>
-                  Scalda, Vlissingen<br />
-                  2014 - 2017
+                  Scalda, Vlissingen
+                  <br>2014 - 2017
                 </b-card-text>
               </b-card-body>
             </b-col>
           </b-row>
         </b-card>
-
       </b-row>
     </b-container>
   </div>
@@ -84,5 +83,9 @@ export default {
 <style scoped>
 .card {
   margin: 10px;
+}
+
+.card-img {
+  padding: 10px;
 }
 </style>

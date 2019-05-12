@@ -21,7 +21,7 @@
           </i>
           <i>
             <p align="center">
-              GIF Banner<br />
+              Pixel Art Banner<br />
               <a
                 href="https://www.behance.net/gallery/36569841/Coffee-in-rain-gif-animation"
                 target="_blank"

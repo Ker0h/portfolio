@@ -13,8 +13,8 @@
 						things. You can find more information about the projects I've been working on recently, on this page and on my GitHub linked below.</p>
 				</b-col>
 
-				<b-col cols="12" md="4" order="1" order-md="12" offset="3" offset-md="0">
-					<b-img src="../assets/face.png" thumbnail fluid rounded="circle" v-bind="{width: '150%'}" style="margin-bottom: 10px;"></b-img>
+				<b-col cols="6" md="4" order="1" order-md="12" offset="3" offset-md="0">
+					<b-img id="face" src="../assets/face.png" thumbnail fluid rounded="circle" v-bind="{width: '150%'}"></b-img>
 				</b-col>
 			</b-row>
 
@@ -28,3 +28,9 @@ export default {
 	name: 'About'
 }
 </script>
+
+<style scoped>
+#face {
+	margin-bottom: 10px;
+}
+</style>
